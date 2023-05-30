@@ -1,0 +1,49 @@
+
+html, body {
+    position: relative;
+    width: 100vw;
+    min-height: 100vh;
+    font-family: 'Roboto', 'sans-serif';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1;
+    color: #000000;
+}
+
+.scroll-fix {
+    position: absolute;
+    width: calc(100vw - 100%);
+}
+
+a {
+    color: #000000; 
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 72.5rem;
+}
+
+
+
+@media (max-width: 1200px) {
+
+    .wrapper {
+        max-width: 100%;
+        padding: 0 1.875rem;
+    }
+}
+
+@media (max-width: 576px) {
+    body {
+        overflow-x: hidden;
+        position: relative;
+    }
+}
+
+@media (max-width: 414px) {
+    .wrapper {
+        padding: 0 1.25rem;
+    }
+}

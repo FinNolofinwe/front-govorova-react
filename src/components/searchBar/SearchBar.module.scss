@@ -1,0 +1,38 @@
+.inp {
+    padding: 0.625rem 0.625rem 0.625rem 0.9375rem;
+    border: none;
+    border: 1px solid #000000;
+    border-radius: 0.125rem;
+    width: 30%;
+    margin-top: 2rem;
+    &:focus,
+    &:hover,
+    &:active {
+        outline: 0;
+        outline-offset: 0;
+    }
+}
+
+@media (max-width: 1024px) {
+    .inp {
+        width: 32%;
+    }
+}
+
+@media (max-width: 768px) {
+    .inp {
+        width: 48%;
+    }
+}
+
+@media (max-width: 576px) {
+    .inp {
+        width: 100%;
+    }
+}
+
+@media (max-width: 414px) {
+    .inp {
+        margin-top: 1.5rem;
+    }
+}
